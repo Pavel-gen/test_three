@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Three.js Example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="fileButton">Выберите бойца</button>
+
+    <div id="app"></div>
+    <div id="popup" class="hidden_1">
+      <button class="close-btn" id="closePopupButton">&times;</button>
+      <div class="header-container">
+        <h3 id="local-title"></h3>
+        <button id="changeMaterialButton">Поменять материал</button>
+        <div id="colorDropdown" class="hidden_2"></div>
+      </div>
+
+      <div id="popup-content"></div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
